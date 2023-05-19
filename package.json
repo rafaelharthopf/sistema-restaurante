@@ -1,0 +1,26 @@
+{
+  "name": "sistema-restaurante",
+  "version": "1.0.0",
+  "description": "sistema desenvolvido com nodejs e outras techs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelharthopf/sistema-restaurante.git"
+  },
+  "author": "Rafael Harthopf Pereira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelharthopf/sistema-restaurante/issues"
+  },
+  "homepage": "https://github.com/rafaelharthopf/sistema-restaurante#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
